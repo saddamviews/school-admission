@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; background: #f4f6f9; margin: 0; color: #1c2430; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 22px; } h3 { margin: 0 0 8px; }
+.card { background: #fff; border: 1px solid #dde3ea; border-radius: 10px; padding: 14px; margin-bottom: 12px; }
+label { display: block; font-size: 13px; margin: 8px 0 4px; color: #4a5565; }
+input { width: 100%; box-sizing: border-box; padding: 9px; border: 1px solid #c4ccd6; border-radius: 6px; font-size: 15px; }
+button { background: #0b5cad; color: #fff; border: 0; border-radius: 6px; padding: 9px 14px; font-size: 14px; cursor: pointer; margin-top: 6px; }
+button.sec { background: #6b7685; } button:disabled { opacity: .5; cursor: not-allowed; }
+.row { display: flex; gap: 8px; align-items: center; } .row input { flex: 1; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; } .tabs button { background: #e6ebf1; color: #1c2430; margin: 0; } .tabs button.on { background: #0b5cad; color: #fff; }
+.notice { padding: 10px; border-radius: 6px; margin-bottom: 10px; font-size: 14px; } .notice.err { background: #fde8e8; color: #9b1c1c; } .notice.ok { background: #e3f6e8; color: #1e6b36; }
+.hint { color: #5d6877; font-size: 14px; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 13px; background: #e6ebf1; } .badge.HELD { background: #fff3cd; } .badge.CONFIRMED { background: #d4edda; } .badge.EXPIRED, .badge.CANCELLED { background: #f1d7d7; }
